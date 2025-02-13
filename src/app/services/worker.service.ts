@@ -9,7 +9,7 @@ import { Worker } from '../models/worker';
 })
 export class WorkerService {
 
-  private getUrl: string = "http://a81c891edafdb481991ce1fb165c64fc-61155563.ap-southeast-1.elb.amazonaws.com:8080/api/v1/workers";
+  private getUrl: string = "http://ae011f75acd324dcf83b74881a456e54-983173579.ap-southeast-1.elb.amazonaws.com:8080/api/v1/workers";
 
   constructor(private _httpClient: HttpClient) { }
 
