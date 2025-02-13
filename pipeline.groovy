@@ -17,7 +17,7 @@ pipeline {
         stage(''){
             steps{
                 sh '''
-                    aws s3 cp --recursive dist/angular-frontend/ s3://0o076thcbz-frontend-project-bux/
+                    aws s3 cp --recursive dist/angular-frontend/ s3://cdec21-frontend-thcbz-frontend-project-bux/
                 '''
             }
         }
